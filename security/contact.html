@@ -30,7 +30,6 @@
 			<link rel="stylesheet" href="css/main.css">
 		</head>
 		<body>
-
 			  <header id="header" id="home">
 			  	<div class="container header-top">
 			  		<div class="row">
@@ -58,19 +57,13 @@
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
-				          <li class="menu-active"><a href="inxed.html">Home</a></li>
-				          <li><a href="about.html">About Us</a></li>
-				          <li><a href="service.html">Service</a></li>
-				          <li><a href="team.html">Team</a></li>
-				          <li><a href="price.html">Price</a></li>
-				          <li><a href="blog-home.html">Blog</a></li>	
+				          <li class="menu-active"><a href="index.html">Home</a></li>
+				          <li><a href="">Women Heroes</a></li>
+				          <li><a href="">Event</a></li>
+				          <li><a href="">Donate</a></li>
+				          <li><a href="">Unsafe</a></li>
+				          <li><a href="">Volunteer</a></li>	
 				          <li><a href="contact.html">Contact</a></li>	
-				          <li class="menu-has-children"><a href="">Pages</a>
-				            <ul>
-				              <li><a href="blog-single.html">blog Single</a></li>
-				              <li><a href="elements.html">Elements</a></li>
-				            </ul>
-				          </li>			          
 				        </ul>
 				      </nav><!-- #nav-menu-container -->		    		
 			    	</div>
@@ -97,15 +90,17 @@
 			<section class="contact-page-area section-gap">
 				<div class="container">
 					<div class="row">
-						<div class="map-wrap" style="width:100%; height: 445px;" id="map"></div>
+						<div class="map-wrap" style="width:100%; height: 445px;" id="map">
+							<span><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.095307416726!2d105.77955771443709!3d21.02887218599832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454b3260b1a8b%3A0x862052392e3f478e!2zOCBUw7RuIFRo4bqldCBUaHV54bq_dCwgTeG7uSDEkMOsbmgsIFThu6sgTGnDqm0sIEjDoCBO4buZaSAxMDAwMCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1548088220168" width="100%" height="445px;"></iframe></span>
+						</div>
 						<div class="col-lg-4 d-flex flex-column address-wrap">
 							<div class="single-contact-address d-flex flex-row">
 								<div class="icon">
 									<span class="lnr lnr-home"></span>
 								</div>
 								<div class="contact-details">
-									<h5>Dhaka, Bangladesh</h5>
-									<p>56/8, West Panthapath</p>
+									<h5>Ha Noi,Viet Nam</h5>
+									<p>8.Ton That Thuyet,Cau Giay</p>
 								</div>
 							</div>
 							<div class="single-contact-address d-flex flex-row">
@@ -113,8 +108,8 @@
 									<span class="lnr lnr-phone-handset"></span>
 								</div>
 								<div class="contact-details">
-									<h5>00 (880) 9865 562</h5>
-									<p>Mon to Fri 9am to 6 pm</p>
+									<h5>+880 012 3654 896</h5>
+									<p>Mon to Fri 8am to 5pm</p>
 								</div>
 							</div>
 							<div class="single-contact-address d-flex flex-row">
@@ -122,16 +117,16 @@
 									<span class="lnr lnr-envelope"></span>
 								</div>
 								<div class="contact-details">
-									<h5>support@codethemes.com</h5>
+									<h5>longit@fpt.edu.vn</h5>
 									<p>Send us your query anytime!</p>
 								</div>
 							</div>														
 						</div>
-						<div class="col-lg-8">
-							<form class="form-area " id="myForm" action="mail.php" method="post" class="contact-form text-right">
+						<div class="col-lg-8">							
+							<form class="form-area " id="myForm" action="mail.php" method="post" class="contact-form text-right" >
 								<div class="row">	
 									<div class="col-lg-6 form-group">
-										<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
+										<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required type="text"+>
 									
 										<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
 
@@ -140,9 +135,7 @@
 									</div>
 									<div class="col-lg-6 form-group">
 										<textarea class="common-textarea form-control" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
-										<button class="primary-btn mt-20 text-white" style="float: right;">Send Message</button>
-																				
-									</div>
+										<button class="primary-btn mt-20 text-white" style="float: righ;" onclick="alert('Thank you for contacting us!')"  >Send Message</button>									
 								</div>
 							</form>	
 						</div>
@@ -205,7 +198,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 			<script src="js/vendor/bootstrap.min.js"></script>			
-			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
   			<script src="js/easing.min.js"></script>			
 			<script src="js/hoverIntent.js"></script>
 			<script src="js/superfish.min.js"></script>	
