@@ -2219,7 +2219,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-gap {
-  padding: 120px 0;
+  padding: 0px;
+  margin: 70px auto auto auto;
 }
 
 .section-title {
@@ -2378,7 +2379,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-service {
   background-color: #f9f9ff;
-  padding: 20px;
+  padding: 50px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2870,13 +2871,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   opacity: 1;
 }
 
-.service-page-service .single-service {
-  margin-bottom: 30px;
-}
 
-.team-page-teams .single-team {
-  margin-bottom: 10px;
-}
+
 
 .single-price {
   text-align: center;
@@ -3420,6 +3416,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .commentform-area .form-control {
   border: none;
   background: #f9f9ff;
+}
+.textMore{
+  color: white;
 }
 
 
