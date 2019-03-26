@@ -2379,7 +2379,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-service {
   background-color: #f9f9ff;
-  padding: 50px;
+  padding: 15px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -3420,7 +3420,25 @@ body.mobile-nav-active #mobile-nav-toggle {
 .textMore{
   color: white;
 }
-
+.detailWomen{
+  margin: 70px auto auto auto;
+}
+.texth2{
+  text-transform: uppercase;
+  text-align: center;
+}
+.textGC{
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px auto auto auto;
+}
+.textP{
+  margin: 10px auto auto auto;
+  font-family: 'Hind Madurai', sans-serif !important;
+}
+.title{
+  background-color:#f3f3f3;
+}
 
 
 /*
