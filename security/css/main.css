@@ -4,7 +4,7 @@
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
@@ -57,7 +57,28 @@ body {
   line-height: 1.625em;
   position: relative;
 }
+.nav.nav-pills li a {
+    margin-right: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
 
+.nav.nav-pills .safe{
+  background-color: green;
+}
+.nav.nav-pills .warning{
+  background-color: #F7C445;
+}
+.nav.nav-pills .dangerous{
+  background-color: red;
+}
 ol, ul {
   margin: 0;
   padding: 0;
