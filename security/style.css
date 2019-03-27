@@ -206,7 +206,7 @@ ol {
     padding: 0;
 }
 
-#scrollUp {
+.scrollUp {
     bottom: 0px;
     font-size: 14px;
     right: 50%;
