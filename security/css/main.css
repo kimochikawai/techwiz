@@ -3687,3 +3687,19 @@ p.agreement label{
   text-align:left;
   margin-top:0;
 }
+/* Style reports json */
+.reports table
+        {
+            width: auto;
+            font:  17px Calibri;
+            margin-top: 20px;
+            color: black;
+        }
+.reports table, th, td
+        {
+
+            border: solid 1px rgb(9, 7, 20);
+            border-collapse: collapse;
+            padding: 4px 5 px;
+            text-align: center;
+        }
