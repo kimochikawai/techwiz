@@ -6,6 +6,7 @@
 /* =================================== */
 /*  Basic Style
 /* =================================== */
+
 ::-moz-selection {
   /* Code for Firefox */
   background-color: #fab700;
@@ -56,6 +57,12 @@ body {
   font-weight: 300;
   line-height: 1.625em;
   position: relative;
+}
+th{
+  color: white;
+}
+td{
+  color:white;
 }
 .nav.nav-pills li a {
     margin-right: 5px;
@@ -3614,7 +3621,7 @@ form.register input[type=radio]
   margin-top: 5px;
 }
 form.register label.gender{
-  
+
   width:34px;
   float:left;
   text-align:left;
