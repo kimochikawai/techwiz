@@ -53,13 +53,8 @@
     CSS
     ============================================= -->
     <link rel="stylesheet" href="css/linearicons.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/nice-select.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <header id="header" id="home">
@@ -120,91 +115,93 @@
   <section class="service-area section-gap" id="service">
       <div class="row  align-items-center justify-content-between d-flex">
     <div class="container">
+      <div class="wrapper">
+        <div class="content">
+          <div id="form_wrapper" class="form_wrapper">
+            <form class="register">
+              <h3>Register</h3>
+              <div class="column">
+                <div>
+                  <label>First Name:</label>
+                  <input type="text" />
+                  <span class="error">This is an error</span>
+                </div>
+                <div>
+                  <label>Last Name:</label>
+                  <input type="text" />
+                  <span class="error">This is an error</span>
+                </div>
+                <div>
+                  <label>Website:</label>
+                  <input type="text" value="http://"/>
+                  <span class="error">This is an error</span>
+                </div>
+              </div>
+              <div class="column">
+                <div>
+                  <label>Username:</label>
+                  <input type="text"/>
+                  <span class="error">This is an error</span>
+                </div>
+                <div>
+                  <label>Email:</label>
+                  <input type="text" />
+                  <span class="error">This is an error</span>
+                </div>
+                <div>
+                  <label>Password:</label>
+                  <input type="password" />
+                  <span class="error">This is an error</span>
+                </div>
+              </div>
+              <div class="bottom" >
+                <div class="remember">
+                  <input type="checkbox" />
+                  <span>Send me updates</span>
+                </div>
+                <input type="submit" value="Register" />
+                <a href="index.html" rel="login" class="linkform">You have an account already? Log in here</a>
+                <div class="clear"></div>
+              </div>
+            </form>
+            <form class="login active">
+              <h3>Login</h3>
+              <div>
+                <label>Username:</label>
+                <input type="text" />
+                <span class="error">This is an error</span>
+              </div>
+              <div>
+                <label>Password: <a href="forgot_password.html" rel="forgot_password" class="forgot linkform">Forgot your password?</a></label>
+                <input type="password" />
+                <span class="error">This is an error</span>
+              </div>
+              <div class="bottom">
+                <div class="remember"><input type="checkbox" /><span>Keep me logged in</span></div>
+                <input type="submit" value="Login"></input>
+                <a href="register.html" rel="register" class="linkform">You don't have an account yet? Register here</a>
+                <div class="clear"></div>
+              </div>
+            </form>
+            <form class="forgot_password">
+              <h3>Forgot Password</h3>
+              <div>
+                <label>Username or Email:</label>
+                <input type="text" />
+                <span class="error">This is an error</span>
+              </div>
+              <div class="bottom">
+                <input type="submit" value="Send reminder"></input>
+                <a href="index.html" rel="login" class="linkform">Suddenly remebered? Log in here</a>
+                <a href="register.html" rel="register" class="linkform">You don't have an account? Register here</a>
+                <div class="clear"></div>
+              </div>
+            </form>
+          </div>
+          <div class="clear"></div>
+        </div>
 
-  <div class="content">
-    <div id="form_wrapper" class="form_wrapper">
-      <form class="register">
-        <h3>Register</h3>
-        <div class="column">
-          <div>
-            <label>First Name:</label>
-            <input type="text" />
-            <span class="error">This is an error</span>
-          </div>
-          <div>
-            <label>Last Name:</label>
-            <input type="text" />
-            <span class="error">This is an error</span>
-          </div>
-          <div>
-            <label>Website:</label>
-            <input type="text" value="http://"/>
-            <span class="error">This is an error</span>
-          </div>
-        </div>
-        <div class="column">
-          <div>
-            <label>Username:</label>
-            <input type="text"/>
-            <span class="error">This is an error</span>
-          </div>
-          <div>
-            <label>Email:</label>
-            <input type="text" />
-            <span class="error">This is an error</span>
-          </div>
-          <div>
-            <label>Password:</label>
-            <input type="password" />
-            <span class="error">This is an error</span>
-          </div>
-        </div>
-        <div class="bottom">
-          <div class="remember">
-            <input type="checkbox" />
-            <span>Send me updates</span>
-          </div>
-          <input type="submit" value="Register" />
-          <a href="index.html" rel="login" class="linkform">You have an account already? Log in here</a>
-          <div class="clear"></div>
-        </div>
-      </form>
-      <form class="login active">
-        <h3>Login</h3>
-        <div>
-          <label>Username:</label>
-          <input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required type="text"+>
-          <span class="error">This is an error</span>
-        </div>
-        <div>
-          <label>Password: <a href="forgot_password.html" rel="forgot_password" class="forgot linkform">Forgot your password?</a></label>
-          <input type="password" />
-          <span class="error">This is an error</span>
-        </div>
-        <div class="bottom">
-          <div class="remember"><input type="checkbox" /><span>Keep me logged in</span></div>
-          <input type="submit" value="Login"></input>
-          <a href="register.html" rel="register" class="linkform">You don't have an account yet? Register here</a>
-          <div class="clear"></div>
-        </div>
-      </form>
-      <form class="forgot_password">
-        <h3>Forgot Password</h3>
-        <div>
-          <label>Username or Email:</label>
-          <input type="text" />
-          <span class="error">This is an error</span>
-        </div>
-        <div class="bottom">
-          <input type="submit" value="Send reminder"></input>
-          <a href="index.html" rel="login" class="linkform">Suddenly remebered? Log in here</a>
-          <a href="register.html" rel="register" class="linkform">You don't have an account? Register here</a>
-          <div class="clear"></div>
-        </div>
-      </form>
-    </div>
-    <div class="clear"></div>
-  </div>
+      </div>
 
 
 </div>
@@ -295,11 +292,10 @@
             <div class="single-footer-widget">
               <h6>About Us</h6>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.
-              </p>
+              We are the founder of the company with the aim of protecting the safety of women        </p>
               <p class="footer-text">
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> WST | Thanks for your support<i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Team</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               </p>
             </div>
